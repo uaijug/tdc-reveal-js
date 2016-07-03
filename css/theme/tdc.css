@@ -352,3 +352,17 @@ body {
   right: 10%;
   bottom: 2%;
 }
+
+
+.slide-number {
+  position: fixed;
+  display: block;
+  right: 8px;
+  bottom: 20px !important;
+  z-index: 31;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px !important;
+  line-height: 1 !important;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px; }
