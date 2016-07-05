@@ -12,6 +12,10 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/presentation.css">
+
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -34,7 +38,7 @@
 			</div>
 
 			<img class="tdc-logo-pequena-img" src="css/theme/img/tdc-logo-pequena.png" />
-			
+
 			<div class="slides">
 
 				<section>
@@ -49,6 +53,9 @@
 
 			<img class="global-code-img" src="css/theme/img/global-code-logo.png" />
 
+			<div class="mouse-controls">
+				<i class="mouse-status" data-on="fa fa-circle" data-off="fa fa-circle-o"></i>
+			</div>
 			<div class= "tdc-foot-hr">
 				<div class = "tdc-bar-block-1"></div>
 				<div class = "tdc-bar-block-2"></div>
@@ -57,24 +64,13 @@
 				<div class = "tdc-bar-block-5"></div>
 				<div class = "tdc-bar-block-6"></div>
 			</div>
+
 		</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
-
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
+		<script src="lib/js/head.min.js" charset="utf-8"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+		<script src="js/reveal.js" charset="utf-8"></script>
+		<script src="js/init.js" charset="utf-8"></script>
+		<!-- <script src="js/ga.js" charset="utf-8"></script> -->
 	</body>
 </html>
